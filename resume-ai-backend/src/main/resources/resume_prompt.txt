@@ -1,0 +1,18 @@
+Generate a professional IT resume in JSON format based on the following description.
+Return ONLY JSON.
+Do not include extra text.
+Use this exact JSON structure:
+{
+  "personalInformation": {...},
+  "skills": [...],
+  "experience": [...],
+  "education": [...],
+  "certifications": [...],
+  "projects": [...],
+  "achievements": [...],
+  "languages": [...],
+  "interests": [...]
+}
+
+Candidate Description:
+"{{userDescription}}"
